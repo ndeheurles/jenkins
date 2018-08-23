@@ -1,0 +1,7 @@
+version: 2
+jobs:
+  build:
+    steps:
+      - run:
+          name: Greeting
+          command: echo Hello, world.
